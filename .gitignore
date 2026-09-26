@@ -1,0 +1,28 @@
+# Maven
+target/
+*.jar
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+*.log
+.env*.local
+!frontend/.env.local.example
+backend/.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Postgres
+*.db
